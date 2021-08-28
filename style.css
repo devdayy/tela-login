@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    background-color: #ee9ca7;
+    font-family: "Poppins";
+}
+
+.container{
+    background-color: #ffdde1;
+    width: 350px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.bnt-email{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   border: none;
+   width: 20em;
+   height: 2em;
+   border-radius: 30px;
+   letter-spacing: 1px;
+   font-family: "Poppins";
+   font-size: small;
+   background-color: rgb(234, 234, 243);
+}
+
+.bnt-senha{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    width: 20em;
+    height: 2em;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    font-size: small;
+    background-color: rgb(234, 234, 243);
+ }
+
+ .bnt-login{
+     border: none;
+     width: 20em;
+     height: 2em;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-family: "Poppins";
+    font-size: small;
+    background-color: rgb(234, 234, 243);
+
+ }
+
+ .bnt-login:hover{
+     border: 2px solid #e497e0;
+     cursor: pointer;
+ }
+
+ .bnt-email:hover{
+    border: 2px solid #e497e0;
+    cursor: pointer;
+}
+
+.bnt-senha:hover{
+    border: 2px solid #e497e0;
+    cursor: pointer;
+}
+
+.text{
+    text-align: center;
+    font-size: small;
+}
+
+.text a{
+    border: none;
+    text-decoration: none;
+    color: rgba(94, 94, 94, 0.616);
+}
